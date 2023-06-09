@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "348567459233",
+    "project_id": "chattingapplicationdemo-f3842",
+    "storage_bucket": "chattingapplicationdemo-f3842.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:348567459233:android:9e2c4a0a7ba2090bd367e0",
+        "android_client_info": {
+          "package_name": "com.adaarajkaip.chattingapplicationdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "348567459233-f6os3qmsa2hrsg1hhcvhs4oj8v7s130b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvbKMn4_asvRKchjgG8Zi0F89prqQVPvA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "348567459233-f6os3qmsa2hrsg1hhcvhs4oj8v7s130b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
