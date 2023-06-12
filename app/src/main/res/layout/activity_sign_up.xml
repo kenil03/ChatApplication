@@ -139,6 +139,7 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <FrameLayout
+            android:layout_marginVertical="@dimen/_10sdp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:animateLayoutChanges="true">
@@ -156,7 +157,7 @@
                 app:cornerRadius="@dimen/_25sdp" />
 
             <ProgressBar
-                android:id="@+id/progressBar"
+                android:id="@+id/signUpProgressBar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"

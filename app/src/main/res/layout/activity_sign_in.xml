@@ -80,17 +80,34 @@
                 android:paddingStart="@dimen/_25sdp"/>
         </com.google.android.material.textfield.TextInputLayout>
 
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/signButton"
+
+        <FrameLayout
+            android:layout_marginVertical="@dimen/_10sdp"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/_45sdp"
-            android:layout_marginHorizontal="@dimen/_20sdp"
-            android:layout_marginVertical="@dimen/_5sdp"
-            android:backgroundTint="@color/black"
-            android:fontFamily="@font/roboto_medium"
-            android:text="Sign In"
-            android:textStyle="bold"
-            app:cornerRadius="@dimen/_25sdp" />
+            android:layout_height="wrap_content"
+            android:animateLayoutChanges="true">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/signButton"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_45sdp"
+                android:layout_marginHorizontal="@dimen/_20sdp"
+                android:layout_marginVertical="@dimen/_5sdp"
+                android:backgroundTint="@color/black"
+                android:fontFamily="@font/roboto_medium"
+                android:text="Sign In"
+                android:textStyle="bold"
+                app:cornerRadius="@dimen/_25sdp" />
+
+            <ProgressBar
+                android:id="@+id/signInProgressBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="gone" />
+
+        </FrameLayout>
+
 
         <TextView
             android:id="@+id/createNew"

@@ -102,14 +102,13 @@ public class SignUp extends AppCompatActivity {
                 });
     }
 
-
     private void loading(Boolean isLoading){
         if (isLoading){
-            binding.progressBar.setVisibility(View.VISIBLE);
+            binding.signUpProgressBar.setVisibility(View.VISIBLE);
             binding.signUp.setVisibility(View.GONE);
         }else {
             binding.signUp.setVisibility(View.VISIBLE);
-            binding.progressBar.setVisibility(View.GONE);
+            binding.signUpProgressBar.setVisibility(View.GONE);
         }
     }
     private String encodeImage(Bitmap bitmap){
